@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { ChevronDown, Code, Smartphone, Globe, Users, Award, ArrowRight, Menu, X } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,8 +34,8 @@ export default function Home() {
   ];
 
   const stats = [
-    { number: "5+", label: "Проектов завершено" },
-    { number: "1", label: "Год опыта" },
+    { number: "15+", label: "Проектов завершено" },
+    { number: "3", label: "Год опыта" },
     { number: "24/7", label: "Поддержка" }
   ];
 
@@ -247,10 +248,11 @@ export default function Home() {
                 <p className="text-gray-600">Ярославль, Россия</p>
               </div>
             </div>
-            
-            <button className="bg-blue-600 text-white px-12 py-4 rounded-xl text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
-              Связаться с нами
-            </button>
+            <Link href={'https://t.me/sazeleam'}>
+              <button className="bg-blue-600 text-white px-12 py-4 rounded-xl text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                Связаться с нами
+              </button>
+            </Link>
           </div>
         </div>
       </section>
