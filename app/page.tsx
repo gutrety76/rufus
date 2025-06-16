@@ -240,7 +240,7 @@ export default function Home() {
               </div>
               <div>
                 <h4 className="font-bold text-gray-900 mb-2">Телефон</h4>
-                <p className="text-blue-600">+7 (999) 979-99-39</p>
+                <p className="text-blue-600">+7 (999) 799-93-49</p>
               </div>
               <div>
                 <h4 className="font-bold text-gray-900 mb-2">Офис</h4>
