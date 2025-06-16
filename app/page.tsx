@@ -178,7 +178,7 @@ export default function Home() {
                 О компании <span className="text-blue-600">Rufus</span>
               </h2>
               <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-                Мы — команда профессиональных разработчиков, которая создает 
+                Мы команда профессиональных разработчиков, которая создает 
                 инновационные IT-решения для бизнеса любого масштаба.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
